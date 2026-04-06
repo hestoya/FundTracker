@@ -1,0 +1,51 @@
+﻿.navbar-container {
+    height: 82px;
+    width: 100%;
+    padding: 16px 36px;
+    background-color: var(--primary-color);
+}
+
+.logo-image {
+    height: 50px;
+    width: 50px;
+}
+
+.logo-text {
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-list {
+    gap: 16px;
+}
+
+.nav-item {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav-link {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.goal-btn {
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+}
+
+.username {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}

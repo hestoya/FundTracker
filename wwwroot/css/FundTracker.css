@@ -1,0 +1,38 @@
+﻿:root {
+    --primary-color: #513EC0;
+    --secondary-color: #29AEDB;
+    --text-color: #0B1E51;
+    --background: linear-gradient(to bottom, #FFFFFF 0%, #DBE9F7 100%);
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: var(--background); 
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+    ul li a {
+        display: block;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        ul li a:hover {
+            background-color: #3D2D98;
+        }
+
+.green, .income {
+    color: #52B356;
+}
+
+.red, expense {
+    color: #E93541;
+}
