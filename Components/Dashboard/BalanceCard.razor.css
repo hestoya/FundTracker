@@ -13,11 +13,14 @@
 }
 
 .balance-card {
-    padding: 20px;
+    padding: 30px;
+    background: linear-gradient(to bottom, #DBE9F7 0%, #FFFFFF 73%);
+    border-end-start-radius: 16px;
+    border-end-end-radius: 16px;
 }
 
-.text {
-    color: var(--text-color);
+.balance-card-shadow {
+    filter: drop-shadow(0 12px 22px rgba(0, 0, 0, 0.2));
 }
 
 .currency {

@@ -29,10 +29,14 @@ ul {
             background-color: #3D2D98;
         }
 
+.text {
+    color: var(--text-color);
+}
+
 .green, .income {
     color: #52B356;
 }
 
-.red, expense {
+.red, .expense {
     color: #E93541;
 }

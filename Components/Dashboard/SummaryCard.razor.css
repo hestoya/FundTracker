@@ -1,0 +1,32 @@
+﻿body {
+}
+
+.balance-card {
+    padding: 30px;
+    border-radius: 16px;
+    filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.1));
+}
+
+.interest-bg {
+    background: linear-gradient(to bottom, #FFFFFF 0%, #EBFFEC 100%);
+}
+
+.target-bg {
+    background: linear-gradient(to bottom, #FFFFFF 0%, #DFF7FF 100%);
+}
+
+.expenses-bg {
+    background: linear-gradient(to bottom, #FFFFFF 0%, #FFE5E7 100%);
+}
+
+.currency-summary{
+    font-size: 24px;
+}
+
+.total-balance {
+    font-size: 40px;
+}
+
+.target {
+    color: var(--secondary-color);
+}
