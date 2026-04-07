@@ -7,9 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Components\Dashboard\NewFolder\**" />
     <Compile Remove="wwwroot\assets\NewFolder1\**" />
+    <Content Remove="Components\Dashboard\NewFolder\**" />
     <Content Remove="wwwroot\assets\NewFolder1\**" />
+    <EmbeddedResource Remove="Components\Dashboard\NewFolder\**" />
     <EmbeddedResource Remove="wwwroot\assets\NewFolder1\**" />
+    <None Remove="Components\Dashboard\NewFolder\**" />
     <None Remove="wwwroot\assets\NewFolder1\**" />
   </ItemGroup>
 
