@@ -16,3 +16,9 @@
         right: 0.75rem;
         top: 0.5rem;
     }
+
+.navbar-filler {
+    height: 68px;
+    width: 100%;
+    display: block;
+}

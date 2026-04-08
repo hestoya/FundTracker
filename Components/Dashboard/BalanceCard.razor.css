@@ -31,7 +31,3 @@
     font-size: 64px;
 }
 
-.form-check-input:checked {
-    background-color: var(--primary-color);
-    border-color: var(--primary-color);
-}
