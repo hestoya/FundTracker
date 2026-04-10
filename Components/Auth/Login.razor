@@ -1,0 +1,32 @@
+﻿@page "/login"
+
+<div class="container-fluid">
+    <div class="d-flex flex-column min-vh-100 justify-content-center align-items-center w-100">
+        <div class="input-container w-25 d-flex flex-column align-items-center">
+
+            <h1 class="login-bar w-100">FundTracker</h1>
+
+            <div class="mb-3 w-100">
+                <label class="text login-text" for="InputEmail">EMAIL ADDRESS</label>
+                <input type="email" class="form-control" id="InputEmail" placeholder="Enter email address" />
+            </div>
+
+            <div class="mb-3 w-100">
+                <label class="text login-text" for="InputPassword">PASSWORD</label>
+                <input type="email" class="form-control" id="InputPassword" placeholder="Enter password" />
+            </div>
+
+            <div class="mb-3 form-check w-100">
+                <input type="checkbox" class="form-check-input" id="RememberMe">
+                <label class="form-check-label text remember-label" for="RememberMe">Remember Me</label>
+            </div>
+
+            <button class="auth-btn">LOGIN</button>
+        </div>
+        
+    </div>
+</div>
+
+@code {
+
+}

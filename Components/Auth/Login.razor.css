@@ -1,0 +1,38 @@
+﻿body {
+}
+
+.login-bar {
+    font-size: 36px;
+    font-weight: 800;
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.login-container {
+    border-radius: 16px;
+}
+
+.input-container {
+    padding: 30px;
+}
+
+.login-text {
+    font-weight: bold;
+}
+
+.remember-label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.auth-btn {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 50px;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    width: fit-content;
+    border-radius: 8px;
+}
