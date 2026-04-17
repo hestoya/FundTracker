@@ -10,7 +10,7 @@ FundTracker is a modern web application that helps you manage your personal fina
   Monitor balances from different bank accounts in a unified dashboard.
 
 - 📊 **Transaction Management**  
-  Record and organize income and expenses بسهولة.
+  Record and organize income and expenses easily.
 
 - 🎯 **Savings Goals**  
   Set financial targets and track your progress over time.
