@@ -6,8 +6,7 @@
     background-color: var(--primary-color);
     border-color: var(--primary-color);
 }
-
-.form-check-input:focus:not(:checked) {
+.form-switch .form-check-input:focus:not(:checked) {
     box-shadow: 0 0 0 0.25rem rgba(227, 222, 255, 1);
     border-color: rgb(222, 226, 230);
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e");
@@ -17,3 +16,27 @@
     box-shadow: 0 0 0 0.25rem rgba(227, 222, 255, 1);
     border-color: rgb(222, 226, 230);
 }
+
+.form-check-input:focus:not(:checked) {
+    box-shadow: 0 0 0 0.25rem rgba(227, 222, 255, 1);
+    border-color: rgb(222, 226, 230);
+}
+
+.form-check .form-check-input {
+    border: 1px solid #B7C5D5;
+}
+
+.form-control {
+    color: #B7C5D5;
+    padding: .375rem 1rem;
+    border: 1px solid #B7C5D5;
+}
+
+    .form-control:focus {
+        box-shadow: 0 0 0 0.25rem rgba(227, 222, 255, 1);
+        border-color: rgb(222, 226, 230);
+    }
+
+    .form-control::placeholder {
+        color: #B7C5D5;
+    }
