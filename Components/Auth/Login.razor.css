@@ -4,7 +4,7 @@
 .login-bar {
     font-size: 36px;
     font-weight: 800;
-    padding: 20px;
+    padding: 20px 40px;
     background-color: var(--primary-color);
     border-start-start-radius: 16px;
     border-start-end-radius: 16px;
